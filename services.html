@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Services - Stable Composed Octopus</title>
+    <meta property="og:title" content="Services - Stable Composed Octopus" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+height: 100%;
+      }
+
+      body {
+display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+
+
+
+.services-footer {
+  background-color: #333; /* Adjust color as needed */
+  color: white;
+flex: 1;
+  text-align: center;
+  padding: 20px;
+position: relative;
+}
+
+.services-container2 {
+  flex: 1;
+  /* Your existing styles for .services-container */
+}
+
+    .container {
+      flex: 1;
+  max-width: 400px;
+max-height: 400px;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #fff;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    }
+
+
+
+   .search-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    #searchInput {
+      padding: 10px;
+      width: 60%;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      margin-right: 10px;
+      font-size: 16px;
+    }
+
+    #searchButton {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      background-color: #5228f5ff;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    ul {
+      list-style-type: auto;
+      padding: 0;
+      margin: 0;
+    }
+
+    ul li {
+      padding: 10px;
+      border-bottom: 1px solid #eee;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    ul li:hover {
+      background-color: #f9f9f9;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+   .info-container {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  width: 80%;
+  max-width: 400px;
+  height: 350px; /* Adjust the height to your preferred size */
+  overflow-y: auto; /* Enable scrolling if content exceeds the height */
+}
+
+
+.close-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 25px;
+  color: #333;
+padding-bottom:30px;
+text-align: center;
+}
+
+p {
+  color: #666;
+  line-height: 1.6;
+text-align: left;
+}
+
+.initial-list {
+        display: block;
+      }
+  </style>
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      @keyframes fade-in-left {
+        0% {
+          opacity: 0;
+          transform: translateX(-20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+    </style>
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./services.css" rel="stylesheet" />
+
+      <div class="services-container">
+        <div class="services-container1">
+          <div class="services-header">
+            <header data-thq="thq-navbar" class="services-navbar-interactive">
+              <a class="services-logo" href="index.html">SCSS</a>
+              <div data-thq="thq-navbar-nav" class="services-desktop-menu">
+                <nav class="services-links Content">
+                  <a href="index.html">Home</a>
+                  <a class="services-nav2" href="about.html" >About</a>
+                  <a class="services-nav3" href="services.html">Services</a>
+                  <a class="services-nav4" href="jobs.html">Jobs</a>
+                  <a class="services-nav5 Content" href="contact.html">Contact</a>
+                </nav>
+                <div class="services-buttons">
+                  <button class="services-login button">Login</button>
+                  <button class="services-register button">Register</button>
+                </div>
+              </div>
+
+              <div data-thq="thq-burger-menu" class="services-burger-menu">
+                <svg viewBox="0 0 1024 1024" class="services-icon">
+                  <path
+                    d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                  ></path>
+                </svg>
+              </div>
+              <div data-thq="thq-mobile-menu" class="services-mobile-menu">
+                <div class="services-nav">
+                  <div class="services-top">
+                    <span class="services-logo1">RECRUITIFY</span>
+                    <div data-thq="thq-close-menu" class="services-close-menu">
+                      <svg viewBox="0 0 1024 1024" class="services-icon02">
+                        <path
+                          d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <nav class="services-links1">
+                    <span class="services-nav11">Home</span>
+                    <span class="services-nav21">About</span>
+                    <span class="services-nav31">Services</span>
+                    <span class="services-nav41">Jobs</span>
+                    <span class="services-nav51">Contact</span>
+                  </nav>
+                  <div class="services-buttons1">
+                    <button class="services-login1 button">Login</button>
+                    <button class="services-register1 button">Register</button>
+                  </div>
+                </div>
+                <div>
+                  <svg
+                    viewBox="0 0 950.8571428571428 1024"
+                    class="services-icon04"
+                  >
+                    <path
+                      d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                    ></path></svg
+                  ><svg
+                    viewBox="0 0 877.7142857142857 1024"
+                    class="services-icon06"
+                  >
+                    <path
+                      d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                    ></path></svg
+                  ><svg
+                    viewBox="0 0 602.2582857142856 1024"
+                    class="services-icon08"
+                  >
+                    <path
+                      d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </header>
+          </div>
+        </div>
+        <div data-thq="thq-dropdown" class="services-thq-dropdown list-item">
+          <ul data-thq="thq-dropdown-list" class="services-dropdown-list">
+            <li data-thq="thq-dropdown" class="services-dropdown list-item">
+              <div
+                data-thq="thq-dropdown-toggle"
+                class="services-dropdown-toggle"
+              >
+                <span class="services-text">sssss</span>
+              </div>
+            </li>
+            <li data-thq="thq-dropdown" class="services-dropdown1 list-item">
+              <div
+                data-thq="thq-dropdown-toggle"
+                class="services-dropdown-toggle1"
+              >
+                <span class="services-text1">Sub-ssss Item</span>
+              </div>
+            </li>
+            <li data-thq="thq-dropdown" class="services-dropdown2 list-item">
+              <div
+                data-thq="thq-dropdown-toggle"
+                class="services-dropdown-toggle2"
+              >
+                <span class="services-text2">Sub-sssdfsdfsdf Item</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+
+<div class="container" style="height: 300px; overflow-y: auto;">
+
+    <div class="search-container">
+ 
+      <input type="text" id="searchInput" placeholder="Search for Jobs..." onkeyup="searchFruits()">
+      <button id="searchButton" onclick="handleSearch()"><i class="fas fa-search"></i>Search</button>
+    </div>
+
+    <ul class="fruits-list " id="fruitsList" style="height: 300px; overflow-y: auto;">
+      <!-- List items will be dynamically populated here -->
+    </ul>
+
+    <div class="info-container" id="infoContainer">
+      <span class="close-icon" onclick="closeInfo()">×</span>
+      <h2 id="selectedFruit"></h2>
+      <p id="fruitInfo"></p>
+    </div>
+  </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+
+ <script>
+   const fruitsData = [
+      { name: 'Customer Support', info: 'International Chat Gaming Process.(Customer support to African Clients)' },
+
+      { name: 'customer service', info: '"Deliver exceptional support and satisfaction by providing prompt, courteous, and effective solutions to meet diverse customer needs, fostering lasting relationships and loyalty.US customer service voice process."' },
+
+      { name: 'Operations Consultant', info: 'Customer service + Cross Sales voice process.' },
+
+      { name: 'Business Support Officer', info: 'Provide comprehensive administrative support and aid in the smooth functioning of operations as a Business Support Officer, ensuring organizational efficiency and productivity.' },
+
+      { name: 'Aviation Hiring', info: '"Facilitating the recruitment and staffing needs within the aviation industry through strategic hiring solutions, ensuring a skilled and qualified workforce for optimal operational performance."' },
+
+      { name: 'Customer service + upsell', info: '"Deliver exceptional customer service while maximizing opportunities for upselling, ensuring customer satisfaction and increased revenue generation."' },
+
+      { name: 'HPPS  Process', info: '"HPPS process streamlines operations, ensuring high-quality performance and productivity through meticulous planning and process optimization."' },
+
+      { name: 'US Voice Inbound  Sales with CS blended Process', info: 'US Voice experience, Work from Office with Travel Capabilities .' },
+
+      { name: 'JCAP US Collection', info: '"JCAP US Collections excels in debt collection services, utilizing innovative approaches and compliance measures to ensure effective debt recovery and client satisfaction."' },
+
+      { name: 'Voice And Chat', info: '1) comcast chat/voice.  2) Lloyds Webchat- UK Banking process.' },
+
+ { name: 'Customer Service with related to Banking', info: '"Providing impeccable customer service within the banking sector, ensuring seamless transactions and resolving inquiries promptly to enhance client satisfaction and trust. Related to Banking, Financial & Credit Cards."' },
+
+ { name: 'Medical Billing ', info: 'Blended Process(Claim Settlement).' },
+
+ { name: 'Service For Heaps Voice', info: 'Tailored services offering comprehensive voice solutions for Heaps Voice users.' },
+
+ { name: 'Telesales executive', info: '"Proficiently engage in telesales initiatives, driving revenue growth and fostering strong client relationships through effective communication and sales strategies.Insurance Sales process (Telesales)."' },
+
+ { name: 'Email Customer Executive', info: 'Email Customer Executives provide dedicated support and assistance via email for seamless customer service experiences.' },
+
+ { name: 'Back office (Operations Executive)', info: '"Proficiently oversee and optimize operational processes as a Back Office Operations Executive, ensuring streamlined workflows and business efficiency."' },
+
+ { name: 'Telesales (HR Service, Corporate)', info: '"Specializing in HR services and corporate solutions, drive sales and client engagement through effective telesales strategies for enhanced business growth and client satisfaction."' },
+
+ { name: 'Assisted Sales Executive', info: '"Proficiently assist in sales operations, delivering exceptional customer service and contributing to achieving sales targets as an Assisted Sales Executive."' },
+
+{ name: 'Tele Marketing Supervisor', info: '"Skilled in overseeing telemarketing activities, managing teams, and implementing strategies to achieve sales targets, fostering customer relationships, and ensuring campaign success."' },
+
+{ name: 'Call Centre Department', info: '"Efficiently managing customer inquiries and support needs while optimizing call center operations to ensure seamless service and client satisfaction."' },
+
+{ name: 'Research and Ranking', info: '"Utilizing in-depth research methodologies, offering comprehensive analysis and personalized investment strategies to empower investors with informed decisions at Research and Ranking."' },
+
+{ name: 'CRM Sales Executive & CRM Customer  Executive ', info: '"CRM Sales Executive Expertly drives sales growth by leveraging CRM tools to optimize customer relationships and boost revenue.CRM Customer Support Executive: Ensures exceptional customer experiences by providing proficient support and leveraging CRM systems to address client needs effectively."' },
+
+{ name: 'Customer Service Voice Process + Upselling', info: '"Proficiently manage customer inquiries, providing exceptional service while leveraging upselling techniques to enhance sales and customer satisfaction in a voice process setting."' },
+
+{ name: 'VIP international - telecalling Outbound sales', info: '"Engage in outbound sales initiatives targeting VIP international clients, ensuring personalized telecalling experiences that drive sales and foster long-term relationships for premium service offerings."' },
+
+{ name: 'Customer service + Renewals', info: '"Combining exceptional customer service expertise with strategic renewal initiatives to ensure client satisfaction and continued loyalty for sustained business growth."' },
+
+{ name: 'Chicos Female voice Support', info: '"Chico is an array of women’s clothing makes it easy to find the right pieces for any lifestyle. Chico carries many types of clothing, apparel, and accessories for any event, season, and style."' },
+
+{ name: 'Inbound Calling process', info: '"Efficiently handle customer inquiries and support needs through an inbound calling process, ensuring prompt and effective resolution for enhanced customer satisfaction and retention."' },
+
+{ name: 'Blended process of Customer Service', info: '"Combining the best of human touch and automation, a blended customer service approach optimizes efficiency and personalization for superior customer satisfaction and problem resolution.(80% Chat and 20% calls)"' },
+
+{ name: 'Technical Support', info: '"Deliver expert troubleshooting assistance and guidance to users, ensuring seamless operation and resolution of technical issues for enhanced customer satisfaction and product reliability."' },
+
+{ name: 'Sales Executive', info: '"Providing expert assistance and troubleshooting solutions to users, ensuring seamless functionality and resolving technical issues promptly and effectively."' },
+
+{ name: 'US Voice process related to healthcare', info: '"Operating within the healthcare sector, the US voice process focuses on delivering exceptional customer service and ensuring compliance with healthcare regulations for optimum patient satisfaction and care."' },
+
+      // Add more fruit data here
+    ];
+
+function initializeFruitsList() {
+      const fruitsList = document.getElementById('fruitsList');
+
+      fruitsData.forEach(fruit => {
+        const li = document.createElement('li');
+        li.classList.add('fruit-item');
+        li.textContent = fruit.name;
+        li.setAttribute('data-info', fruit.info);
+        li.onclick = function() { showFruit(this); };
+
+        fruitsList.appendChild(li);
+      });
+    }
+const sortedFruitsData = fruitsData.sort((a, b) => a.name.localeCompare(b.name));
+
+initializeFruitsList();
+
+    function showFruit(fruit) {
+      const info = fruit.getAttribute('data-info');
+      const selectedFruit = document.getElementById('selectedFruit');
+      const fruitInfo = document.getElementById('fruitInfo');
+
+      selectedFruit.textContent = ` ${fruit.textContent}`;
+      fruitInfo.textContent = info;
+
+      const infoContainer = document.getElementById('infoContainer');
+      infoContainer.style.display = 'block';
+    }
+
+
+    function searchFruits() {
+      const input = document.getElementById('searchInput').value.toLowerCase();
+      const fruitsList = document.getElementById('fruitsList');
+      fruitsList.innerHTML = '';
+
+      fruitsData.forEach(fruit => {
+        const text = fruit.name.toLowerCase();
+        if (text.includes(input)) {
+          const li = document.createElement('li');
+          li.classList.add('fruit-item');
+          li.textContent = fruit.name;
+          li.setAttribute('data-info', fruit.info);
+          li.onclick = function() { showFruit(this); };
+
+          fruitsList.appendChild(li);
+        }
+      });
+    }
+
+    function closeInfo() {
+      const infoContainer = document.getElementById('infoContainer');
+      infoContainer.style.display = 'none';
+    }
+
+function handleSearch() {
+      let searchInput = document.getElementById('searchInput').value.trim();
+      if (searchInput !== '') {
+        searchFruits();
+      } else {
+        alert('Please enter a fruit name to search.');
+      }
+    }
+
+function handleSearch() {
+      let searchInput = document.getElementById('searchInput').value.trim();
+      if (searchInput !== '') {
+        searchFruits();
+      } else {
+        alert('Please enter a Job designation to search.');
+      }
+    }
+
+  </script>
+
+
+        <footer class="services-footer">
+          <div class="services-container2">
+            <span class="services-logo2">SCSS</span>
+            <nav class="services-links Content">
+                  <a href="index.html">Home</a>
+                  <a class="services-nav2" href="about.html" >About</a>
+                  <a class="services-nav3" href="services.html">Services</a>
+                  <a class="services-nav4" href="jobs.html">Jobs</a>
+                  <a class="services-nav5 Content" href="contact.html">Contact</a>
+                </nav>
+          </div>
+          <div class="services-separator"></div>
+          <div class="services-container3">
+            <span class="services-text3">
+              © 2023 SCSS, All Rights Reserved.
+            </span>
+            <div class="services-icon-group1">
+              <svg viewBox="0 0 950.8571428571428 1024" class="services-icon10">
+                <path
+                  d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                ></path></svg
+              ><svg
+                viewBox="0 0 877.7142857142857 1024"
+                class="services-icon12"
+              >
+                <path
+                  d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                ></path></svg
+              ><svg
+                viewBox="0 0 602.2582857142856 1024"
+                class="services-icon14"
+              >
+                <path
+                  d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
